@@ -3,7 +3,6 @@ package main
 import "testing"
 
 func TestSomaWithNegatives(t *testing.T) {
-
 	total := soma(15, -15)
 
 	if total != 0 {
@@ -12,7 +11,6 @@ func TestSomaWithNegatives(t *testing.T) {
 }
 
 func TestSoma(t *testing.T) {
-
 	total := soma(15, 15)
 
 	if total != 30 {
