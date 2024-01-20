@@ -4,9 +4,9 @@ on:
     branches:
       - main
       - develop
-strategy:
-  matrix:
-    go: ['1.19', '1.21']
+  strategy:
+    matrix:
+      go: ['1.19', '1.21']
 jobs:
   check-application:
     runs-on: ubuntu-latest
